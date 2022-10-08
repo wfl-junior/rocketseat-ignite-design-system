@@ -2,7 +2,7 @@
   "name": "@ignite-ui/tokens",
   "version": "1.0.0",
   "author": "Wallace Júnior",
-  "license": "ISC",
+  "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -11,6 +11,7 @@
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
   },
   "devDependencies": {
+    "@ignite-ui/ts-config": "*",
     "tsup": "^6.2.3",
     "typescript": "^4.8.4"
   }
