@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/react",
+  "name": "@wfl-junior-ignite-design-system/react",
   "version": "1.0.0",
   "author": "Wallace Júnior",
   "license": "MIT",
@@ -11,8 +11,8 @@
     "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --watch"
   },
   "devDependencies": {
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@wfl-junior-ignite-design-system/tokens": "*",
+    "@wfl-junior-ignite-design-system/ts-config": "*",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "react": "^18.2.0",

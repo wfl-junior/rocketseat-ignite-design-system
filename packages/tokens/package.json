@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/tokens",
+  "name": "@wfl-junior-ignite-design-system/tokens",
   "version": "1.0.0",
   "author": "Wallace Júnior",
   "license": "MIT",
@@ -11,7 +11,7 @@
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
   },
   "devDependencies": {
-    "@ignite-ui/ts-config": "*",
+    "@wfl-junior-ignite-design-system/ts-config": "*",
     "tsup": "^6.2.3",
     "typescript": "^4.8.4"
   }

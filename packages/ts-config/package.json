@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@ignite-ui/ts-config",
+  "name": "@wfl-junior-ignite-design-system/ts-config",
   "version": "1.0.0",
   "author": "Wallace Júnior",
   "license": "MIT"
