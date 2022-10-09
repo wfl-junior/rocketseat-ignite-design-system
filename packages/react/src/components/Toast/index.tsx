@@ -20,3 +20,5 @@ export const Toast: React.FC<ToastProps> = ({ title, message, onClose }) => (
     <Message>{message}</Message>
   </ToastContainer>
 );
+
+Toast.displayName = "Toast";
