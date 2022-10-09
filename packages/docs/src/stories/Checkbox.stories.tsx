@@ -6,10 +6,15 @@ const meta: Meta<CheckboxProps> = {
   component: Checkbox,
   args: {
     id: "checkbox",
-    checked: false,
+    "aria-labelledby": "checkbox-label",
   },
   argTypes: {
     id: {
+      table: {
+        disable: true,
+      },
+    },
+    "aria-labelledby": {
       table: {
         disable: true,
       },
@@ -26,6 +31,7 @@ const meta: Meta<CheckboxProps> = {
       >
         {Story()}
         <Text
+          id="checkbox-label"
           size="sm"
           as="label"
           htmlFor="checkbox"
