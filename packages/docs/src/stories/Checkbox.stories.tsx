@@ -6,6 +6,14 @@ const meta: Meta<CheckboxProps> = {
   component: Checkbox,
   args: {
     id: "checkbox",
+    checked: false,
+  },
+  argTypes: {
+    id: {
+      table: {
+        disable: true,
+      },
+    },
   },
   decorators: [
     Story => (

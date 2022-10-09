@@ -12,6 +12,13 @@ const meta: Meta<BoxProps> = {
       </Fragment>
     ),
   },
+  argTypes: {
+    children: {
+      table: {
+        disable: true,
+      },
+    },
+  },
 };
 
 export const Primary: StoryObj<BoxProps> = {};

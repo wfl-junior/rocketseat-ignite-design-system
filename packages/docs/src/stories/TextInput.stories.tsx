@@ -6,6 +6,15 @@ const meta: Meta<TextInputProps> = {
   component: TextInput,
   args: {
     id: "text-input",
+    disabled: false,
+    placeholder: "Type your e-mail...",
+  },
+  argTypes: {
+    id: {
+      table: {
+        disable: true,
+      },
+    },
   },
   decorators: [
     Story => (
@@ -25,11 +34,7 @@ const meta: Meta<TextInputProps> = {
   ],
 };
 
-export const Primary: StoryObj<TextInputProps> = {
-  args: {
-    placeholder: "Type your e-mail...",
-  },
-};
+export const Primary: StoryObj<TextInputProps> = {};
 
 export const Disabled: StoryObj<TextInputProps> = {
   args: {
@@ -40,6 +45,7 @@ export const Disabled: StoryObj<TextInputProps> = {
 export const WithPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: "cal.com/",
+    placeholder: "",
   },
 };
 

@@ -8,19 +8,30 @@ const meta: Meta<ButtonProps> = {
   component: Button,
   args: {
     children: "Send",
+    variant: "primary",
+    size: "md",
+    disabled: false,
   },
   argTypes: {
     onClick: {
       action: "click",
     },
+    variant: {
+      options: ["primary", "secondary", "tertiary"],
+      control: {
+        type: "inline-radio",
+      },
+    },
+    size: {
+      options: ["sm", "md"],
+      control: {
+        type: "inline-radio",
+      },
+    },
   },
 };
 
-export const Primary: StoryObj<ButtonProps> = {
-  args: {
-    variant: "primary",
-  },
-};
+export const Primary: StoryObj<ButtonProps> = {};
 
 export const Secondary: StoryObj<ButtonProps> = {
   args: {

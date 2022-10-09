@@ -6,6 +6,15 @@ const meta: Meta<TextAreaProps> = {
   component: TextArea,
   args: {
     id: "text-area",
+    disabled: false,
+    placeholder: "Add any observations...",
+  },
+  argTypes: {
+    id: {
+      table: {
+        disable: true,
+      },
+    },
   },
   decorators: [
     Story => (
@@ -25,11 +34,7 @@ const meta: Meta<TextAreaProps> = {
   ],
 };
 
-export const Primary: StoryObj<TextAreaProps> = {
-  args: {
-    placeholder: "Add any observations...",
-  },
-};
+export const Primary: StoryObj<TextAreaProps> = {};
 
 export const Disabled: StoryObj<TextAreaProps> = {
   args: {
