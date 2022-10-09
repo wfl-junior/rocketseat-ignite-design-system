@@ -1,8 +1,7 @@
 import { styled } from "../styles";
+import { StitchesComponentProps } from "../types/StitchesComponentProps";
 
-export interface BoxProps extends React.ComponentProps<typeof Box> {
-  as?: React.ElementType;
-}
+export interface BoxProps extends StitchesComponentProps<typeof Box> {}
 
 export const Box = styled("div", {
   padding: "$4",

@@ -1,8 +1,7 @@
 import { styled } from "../styles";
+import { StitchesComponentProps } from "../types/StitchesComponentProps";
 
-export interface TextProps extends React.ComponentProps<typeof Text> {
-  as?: React.ElementType;
-}
+export interface TextProps extends StitchesComponentProps<typeof Text> {}
 
 export const Text = styled("p", {
   fontFamily: "$DEFAULT",
