@@ -1,4 +1,4 @@
 {
-  "extends": "@ignite-ui/ts-config/tsconfig.base.json",
+  "extends": "@wfl-junior-ignite-design-system/ts-config/tsconfig.base.json",
   "include": ["src"]
 }
