@@ -1,4 +1,4 @@
-import { Box, BoxProps } from "@ignite-ui/react";
+import { Box, BoxProps, Text } from "@ignite-ui/react";
 import type { Meta, StoryObj } from "@storybook/react";
 import { Fragment } from "react";
 
@@ -8,7 +8,7 @@ const meta: Meta<BoxProps> = {
   args: {
     children: (
       <Fragment>
-        <span>Testando o elemento Box.</span>
+        <Text>Testando o elemento Box.</Text>
       </Fragment>
     ),
   },

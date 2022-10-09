@@ -1,6 +1,8 @@
 import { styled } from "../styles";
 
-export type BoxProps = React.ComponentProps<typeof Box>;
+export interface BoxProps extends React.ComponentProps<typeof Box> {
+  as?: React.ElementType;
+}
 
 export const Box = styled("div", {
   padding: "$4",
