@@ -11,3 +11,5 @@ export const TextInput: React.FC<TextInputProps> = ({ prefix, ...props }) => (
     <Input {...props} />
   </TextInputContainer>
 );
+
+TextInput.displayName = "TextInput";

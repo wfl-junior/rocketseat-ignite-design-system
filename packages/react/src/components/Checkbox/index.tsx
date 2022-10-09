@@ -11,3 +11,5 @@ export const Checkbox: React.FC<CheckboxProps> = props => (
     </CheckboxIndicator>
   </CheckboxContainer>
 );
+
+Checkbox.displayName = "Checkbox";
