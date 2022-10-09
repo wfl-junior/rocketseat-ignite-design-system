@@ -1,0 +1,2 @@
+import{A as t}from"./index.acef7598.js";import"./index.c00f0f07.js";import"./iframe.125ae74c.js";import"./index.42e22969.js";import"./jsx-runtime.657531f0.js";const m={title:"Data Display/Avatar",component:t,args:{src:"https://github.com/wfl-junior.png",alt:"Wallace J\xFAnior"}},c={},l={args:{src:""}},p=["Primary","WithFallback"];export{c as Primary,l as WithFallback,p as __namedExportsOrder,m as default};
+//# sourceMappingURL=Avatar.stories.2490e208.js.map
