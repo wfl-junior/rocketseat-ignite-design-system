@@ -33,7 +33,7 @@ export const Button = styled("button", {
       primary: {
         color: "$white",
         backgroundColor: "$ignite500",
-        transition: "background-color linear 200ms",
+        transition: "background-color 200ms linear",
 
         "&:enabled:hover": {
           backgroundColor: "$ignite300",

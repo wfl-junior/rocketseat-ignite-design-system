@@ -5,7 +5,7 @@ const meta: Meta<TextAreaProps> = {
   title: "Form/Text Area",
   component: TextArea,
   args: {
-    id: "text-input",
+    id: "text-area",
   },
   decorators: [
     Story => (
@@ -16,7 +16,7 @@ const meta: Meta<TextAreaProps> = {
           gap: "$2",
         }}
       >
-        <Text size="sm" as="label" htmlFor="text-input">
+        <Text size="sm" as="label" htmlFor="text-area">
           Observations
         </Text>
         {Story()}
