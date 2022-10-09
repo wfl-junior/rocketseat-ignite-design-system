@@ -1,5 +1,5 @@
-import { Text, TextProps } from "@ignite-ui/react";
 import type { Meta, StoryObj } from "@storybook/react";
+import { Text, TextProps } from "@wfl-junior-ignite-design-system/react";
 
 const meta: Meta<TextProps> = {
   title: "Typography/Text",

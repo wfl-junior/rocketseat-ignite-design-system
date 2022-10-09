@@ -1,5 +1,5 @@
-import { Heading, HeadingProps } from "@ignite-ui/react";
 import type { Meta, StoryObj } from "@storybook/react";
+import { Heading, HeadingProps } from "@wfl-junior-ignite-design-system/react";
 
 const meta: Meta<HeadingProps> = {
   title: "Typography/Heading",

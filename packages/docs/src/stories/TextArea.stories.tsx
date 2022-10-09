@@ -1,5 +1,10 @@
-import { Box, Text, TextArea, TextAreaProps } from "@ignite-ui/react";
 import type { Meta, StoryObj } from "@storybook/react";
+import {
+  Box,
+  Text,
+  TextArea,
+  TextAreaProps,
+} from "@wfl-junior-ignite-design-system/react";
 
 const meta: Meta<TextAreaProps> = {
   title: "Form/Text Area",

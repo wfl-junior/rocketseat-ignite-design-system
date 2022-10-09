@@ -1,5 +1,10 @@
-import { Box, Text, TextInput, TextInputProps } from "@ignite-ui/react";
 import type { Meta, StoryObj } from "@storybook/react";
+import {
+  Box,
+  Text,
+  TextInput,
+  TextInputProps,
+} from "@wfl-junior-ignite-design-system/react";
 
 const meta: Meta<TextInputProps> = {
   title: "Form/Text Input",

@@ -1,4 +1,4 @@
-import { colors } from "@ignite-ui/tokens";
+import { colors } from "@wfl-junior-ignite-design-system/tokens";
 import { getContrast } from "polished";
 import { Fragment } from "react";
 

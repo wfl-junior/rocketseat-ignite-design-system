@@ -1,5 +1,5 @@
-import { Button, ButtonProps } from "@ignite-ui/react";
 import type { Meta, StoryObj } from "@storybook/react";
+import { Button, ButtonProps } from "@wfl-junior-ignite-design-system/react";
 import { ArrowRight } from "phosphor-react";
 import { Fragment } from "react";
 

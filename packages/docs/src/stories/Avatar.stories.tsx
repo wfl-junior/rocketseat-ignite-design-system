@@ -1,5 +1,5 @@
-import { Avatar, AvatarProps } from "@ignite-ui/react";
 import type { Meta, StoryObj } from "@storybook/react";
+import { Avatar, AvatarProps } from "@wfl-junior-ignite-design-system/react";
 
 const meta: Meta<AvatarProps> = {
   title: "Data Display/Avatar",
